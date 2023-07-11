@@ -43,6 +43,7 @@ proxy-groups:
   - { name: 故障转移, type: fallback, proxies: [美国, 备用线路, 日本, 新加坡, 香港, 台湾, 澳大利亚, 韩国, 印度, 加拿大, 英国, 德国, 荷兰, 土耳其, 阿根廷, ], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 
 rules:
+    - 'DOMAIN-SUFFIX,s60m.com,FKwall'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,FKwall'
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,FKwall'
     - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
