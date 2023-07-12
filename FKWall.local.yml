@@ -44,6 +44,8 @@ proxy-groups:
 
 rules:
     - 'DOMAIN-SUFFIX,s60m.com,FKwall'
+    - 'DOMAIN-SUFFIX,91porn.com,FKwall'    
+    - 'DOMAIN-SUFFIX,uaa.com,FKwall'       
     - 'DOMAIN-SUFFIX,services.googleapis.cn,FKwall'
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,FKwall'
     - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
